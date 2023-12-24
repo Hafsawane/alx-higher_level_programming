@@ -6,4 +6,4 @@ def print_last_digit(number):
         return lastdigit
     else:
         return lastdigit
-    print(print_last_digit)
+    print("{:02d}".format(lastdigit))
