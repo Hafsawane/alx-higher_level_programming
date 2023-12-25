@@ -6,4 +6,3 @@ for char in range(ord('Z'), ord('A') - 1, -1):
     else:
         letter = letter.upper()
     print("{}".format(letter), end="")
-print()
