@@ -5,7 +5,7 @@ def delete_at(my_list=[], idx=0):
 
     if idx < 0 or idx is None:
         return my_list
-    elif idx > 0 and idx != idx - 1:
+    elif idx >= 0 and idx != idx - 1:
         del my_list[idx]
         return my_list
     else:
