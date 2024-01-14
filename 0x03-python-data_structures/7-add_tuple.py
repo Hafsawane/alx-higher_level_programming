@@ -1,9 +1,5 @@
 #!/usr/bin/python3
 def add_tuple(tuple_a=(), tuple_b=()):
-    if not tuple_a:
-        return None
-    if not tuple_b:
-        return None
     len_a = len(tuple_a)
     len_b = len(tuple_b)
     new_tuple = ((tuple_a[0] if len_a >= 1 else 0) +
